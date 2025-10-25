@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css classwork 6</title>
+<style>
+    h1
+    {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-large;
+        text-decoration: underline;
+    }
+    div
+    {
+        text-align: center;
+        border: 1px solid black;
+        width: 300px;
+        padding: 20px;
+        margin: auto;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    img
+    {
+        border: 2px solid black;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    @media only screen and (max-width: 600px) 
+    {
+    div
+    {
+        font-size: large;
+        width: 80%;
+    }
+    }
+    @media only screen and (orientation: landscape) {
+    div
+    {
+    background-color: lightblue;
+    }
+    }
+</style>
+</head>
+<body>
+    <h1>ONLINE STORE</h1>
+    <div>
+    <img src="https://assets.manutd.com/AssetPicker/images/0/0/13/153/891256/20190924_MUFC_Unmatched_shoot_630.CR2.p1591865966120_medium.jpg" alt="Picture">
+    <p>MANCHESTER UNITED MERCHANDISE</p>
+    <input type="button" value="BUY NOW">
+    </div>
+</body>
+</html>
